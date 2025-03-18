@@ -3,7 +3,7 @@
     <div class="app-page-header">
       <a-page-header
         title="交易平台"
-        sub-title="负责生成交易信息"
+        sub-title="负责进行交易，生成交易信息证书，已认证证书信息通过表格形式列举。"
         @back="() => $router.push('/')"
       >
         <template #extra>
