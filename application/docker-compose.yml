@@ -18,7 +18,7 @@ services:
       - fabric_togettoyou_network
   # 前端
   fabric-realty.web:
-    image: togettoyou/fabric-realty.web:latest
+    image: czw-software/fabric-realty.web:latest
     container_name: fabric-realty.web
     ports:
       - "8000:80"
