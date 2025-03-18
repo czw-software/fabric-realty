@@ -29,4 +29,4 @@ jobs:
         with:
           context: application/web
           push: true
-          tags: czw-software/fabric-realty.web:latest
+          tags: togettoyou/fabric-realty.web:latest
