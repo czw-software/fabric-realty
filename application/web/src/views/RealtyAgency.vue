@@ -3,7 +3,7 @@
     <div class="app-page-header">
       <a-page-header
         title="不动产登记机构"
-        sub-title="负责房产信息登记，生成房产登记证书，已认证证书信息以表格形式列举。"
+        sub-title="负责房产信息登记，生成房产登记证书，已认证证书信息通过表格形式列举。"
         @back="() => $router.push('/')"
       >
         <template #extra>
