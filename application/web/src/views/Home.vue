@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="home-page-header">
-      <h1 class="page-title">选择您的组织身份</h1>
+      <h1 class="page-title">选定组织模块</h1>
       <p class="page-description">本系统由三个组织构成的联盟链网络共同维护</p>
     </div>
 
@@ -11,7 +11,7 @@
           <HomeOutlined />
         </div>
         <div class="card-title">不动产登记机构（Org1）</div>
-        <div class="card-description">负责房产信息的登记</div>
+        <div class="card-description">负责房产信息登记，生成房产登记证书</div>
       </router-link>
 
       <router-link to="/trading-platform" class="card">
@@ -19,7 +19,7 @@
           <ShopOutlined />
         </div>
         <div class="card-title">交易平台（Org3）</div>
-        <div class="card-description">负责生成交易信息</div>
+        <div class="card-description">负责进行交易。生成交易信息证书</div>
       </router-link>
 
       <router-link to="/bank" class="card">
@@ -27,7 +27,7 @@
           <BankOutlined />
         </div>
         <div class="card-title">银行（Org2）</div>
-        <div class="card-description">负责交易的完成确认</div>
+        <div class="card-description">负责交易完成确认，生成交易状态证书</div>
       </router-link>
     </div>
   </div>
