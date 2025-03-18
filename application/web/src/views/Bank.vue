@@ -3,7 +3,7 @@
     <div class="app-page-header">
       <a-page-header
         title="银行"
-        sub-title="负责交易的完成确认"
+        sub-title="负责交易完成确认，生成交易状态证书，已认证证书信息通过表格形式列举。"
         @back="() => $router.push('/')"
       />
     </div>
